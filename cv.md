@@ -2,6 +2,6 @@
 **Junior Web Developer**
 
 ## Contact information:
-Telegram: @evgtrn\
+Telegram: @evgtrn
 
-mail: shadjkez0r48@gmail.com\
+mail: shadjkez0r48@gmail.com
