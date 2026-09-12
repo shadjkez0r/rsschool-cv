@@ -37,7 +37,7 @@ I am a highly motivated programming student focused on backend technologies. I h
 
 ## Code Example (Scala + Cats)
 
-Simple Chrono Trigger characters API Controller with http4s
+Simple Chrono Trigger characters API Controller with http4s:
 
 ```scala
 package com.characters.infrastructure.http
