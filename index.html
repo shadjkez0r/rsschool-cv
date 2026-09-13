@@ -8,29 +8,33 @@
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css"
+    />
     <title>Evgenii CV</title>
   </head>
   <body>
     <header>
       <nav class="navigation">
-        <div class="navigation__div">
-          <ul class="navigation__list">
-            <li><a href="#summary">Summary</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Experience / Educational Projects</a></li>
-            <li><a href="#code">Code Example</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#english">English Level</a></li>
-            <li>
-              <button id="theme-switch" class="theme-switch">
-                Dark/Light Theme
-              </button>
-            </li>
-          </ul>
-        </div>
+        <ul class="navigation__list">
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Experience</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#english">English</a></li>
+          <li class="theme-li">
+            <button id="theme-switch" class="theme-switch">
+              Dark/Light Theme
+            </button>
+          </li>
+        </ul>
       </nav>
-      <h1 class="name">Evgenii</h1>
-      <img class="avatar" src="./imgs/gosling.png" alt="Evgenii avatar" />
+      <div class="profile">
+        <img class="avatar" src="./imgs/gosling.png" alt="Evgenii avatar" />
+        <h1 class="name">Evgenii</h1>
+      </div>
     </header>
 
     <main>
@@ -78,8 +82,8 @@
           <li>Python</li>
           <li>FastAPI</li>
           <li>Async</li>
-          <li>Scala</li>
           <li>Functional Programming</li>
+          <li>Scala</li>
           <li>Cats-core</li>
           <li>Cats-Effect</li>
           <li>Doobie</li>
@@ -161,7 +165,7 @@
       </section>
       <section class="code" id="code">
         <h2>Code Example</h2>
-        <pre><code class="code__scala">
+        <pre><code class="language-scala">
 package com.characters.infrastructure.http
 
 import cats.effect.Async
@@ -274,6 +278,11 @@ class CharacterController[F[_]: Async](service: CharacterService[F])
       /></a>
       <span>2026</span>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/scala.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
