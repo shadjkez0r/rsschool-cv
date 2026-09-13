@@ -4,21 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Evgenii CV</title>
   </head>
   <body>
     <header>
-      <h1 class="name">Evgenii</h1>
       <nav class="navigation">
-        <ul class="navigation__list">
-          <li><a href="#summary">Summary</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Experience / Educational Projects</a></li>
-          <li><a href="#code">Code Example</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#english">English Level</a></li>
-        </ul>
+        <div class="navigation__div">
+          <ul class="navigation__list">
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Experience / Educational Projects</a></li>
+            <li><a href="#code">Code Example</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#english">English Level</a></li>
+            <li>
+              <button id="theme-switch" class="theme-switch">
+                Dark/Light Theme
+              </button>
+            </li>
+          </ul>
+        </div>
       </nav>
+      <h1 class="name">Evgenii</h1>
       <img class="avatar" src="./imgs/gosling.png" alt="Evgenii avatar" />
     </header>
 
@@ -263,5 +274,6 @@ class CharacterController[F[_]: Async](service: CharacterService[F])
       /></a>
       <span>2026</span>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
