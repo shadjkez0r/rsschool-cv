@@ -115,6 +115,7 @@ footer img {
 }
 
 .skills__list {
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
@@ -159,6 +160,7 @@ li code, p code {
 }
 
 pre {
+    margin-top: 10px;
     border-radius: 8px;
     overflow: auto;
 }
