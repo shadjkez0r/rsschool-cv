@@ -1,1 +1,2 @@
-[My CV](https://shadjkez0r.github.io/rsschool-cv/cv)
+- [My CV from markdown](https://shadjkez0r.github.io/rsschool-cv/cv)
+- [My CV from html](https://shadjkez0r.github.io/rsschool-cv/)
